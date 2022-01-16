@@ -8,8 +8,7 @@
     align-items: center;
     background-color: #1F2937;
     color: #f9faf8;
-    padding: 20px 150px 30px 150px;
-    margin: -10px;
+    width: 100vw;
 }
 
 .hero-text {
@@ -29,11 +28,12 @@
 .header {
     display: flex;
     flex-wrap: nowrap;
-    width: 800px;
+    width: 1100px;
 }
 ul {
     display: flex;
-    gap: 16px;
+    gap: 24px;
+    margin-left: auto;
 }
 
 li {
@@ -44,10 +44,12 @@ li {
 
 .intro {
     display: flex;
+    margin: 100px auto;
+    gap: 50px;
 }
 
 .intro-left {
-    width: 300px;
+    width: 500px;
 }
 
 .intro-left > button {
@@ -59,6 +61,7 @@ li {
     padding: 6px 8px;
     font-size: 18px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 .image {
@@ -66,7 +69,7 @@ li {
     justify-content: center;
     align-items: center;
     background-color: grey;
-    width: 500px;
+    width: 550px;
     flex: 1;
 }
 
@@ -79,17 +82,19 @@ li {
     align-items: center;
     margin-bottom: 40px;
     padding: 1em;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bolder;
     color: #1F2937;
+    margin-bottom: 150px;
 }
 
 .box-text {
-    font-size: 12px;
+    font-size: 18px;
     color: grey;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    gap: 8px;
 }
 
 .boxes {
@@ -98,15 +103,14 @@ li {
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
-    border: 1px solid;
     width: min-content;
-    gap: 2em;
+    gap: 80px;
 }
 
 .box {
-    border: 3px solid #3882f6;
-    width: 10em;
-    height: 10em;
+    border: 5px solid #3882f6;
+    width: 9em;
+    height: 9em;
     border-radius: 12px;
     display: flex;
     justify-content: center;
@@ -154,7 +158,7 @@ li {
     width: 800px;
     border: none;
     border-radius: 12px;
-    margin: 50px auto;
+    margin: 100px auto;
     padding-right: 150px;
     padding-left: 150px;
 }
@@ -177,6 +181,16 @@ li {
     font-weight: bold;
     padding: 5px 30px;
     margin-left: 100px;
+}
 
+/* this is where the footer section begins */
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    background-color: #1F2937;
+    color: #f9faf8;
 }
